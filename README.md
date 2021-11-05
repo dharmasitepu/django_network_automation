@@ -6,6 +6,6 @@
 Simple Django WEB for Network Automation
 current brand for automate
 ```
-Cisco IOS
-MikroTik RouerOS
+- Cisco IOS
+- MikroTik RouerOS
 ```
