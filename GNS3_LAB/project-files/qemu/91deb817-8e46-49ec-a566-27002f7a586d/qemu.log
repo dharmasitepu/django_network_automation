@@ -1,0 +1,3 @@
+Start QEMU with "C:\Program Files\GNS3\qemu-3.1.0\qemu-system-x86_64w.exe" -name mikrotik-2 -m 128M -smp "cpus=1,sockets=1" -boot "order=c" -drive "file=C:\Users\Dharma Agung\django_network_automation\Django Network Automation\project-files\qemu\91deb817-8e46-49ec-a566-27002f7a586d\hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0" -uuid 91deb817-8e46-49ec-a566-27002f7a586d -serial "telnet:127.0.0.1:5003,server,nowait" -monitor "tcp:127.0.0.1:1087,server,nowait" -net none -device "e1000,mac=0c:de:b8:17:00:00,netdev=gns3-0" -netdev "socket,id=gns3-0,udp=127.0.0.1:10017,localaddr=127.0.0.1:10016" -nographic
+
+Execution log:
